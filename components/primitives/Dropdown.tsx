@@ -31,13 +31,13 @@ const AnimatedDropdownMenuContent = forwardRef<
         scale: 1,
         opacity: 1,
         y: 0,
-        transition: { mass: 1, type: 'spring', duration: 0.15 },
+        transition: { mass: 0.3, type: 'spring', duration: 0.15 },
       }}
       exit={{
         y: -20,
         scale: 0.9,
         opacity: 0,
-        transition: { duration: 0.3 },
+        transition: { duration: 0.15 },
       }}
     >
       {children}
